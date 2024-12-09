@@ -1,5 +1,5 @@
 .container-form {
-    width: 100%:
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ label {
 }
 
 .inputs {
-    width: 100%:
+    width: 100%;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;

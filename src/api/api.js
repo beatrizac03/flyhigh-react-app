@@ -1,8 +1,9 @@
-//
+// documentação: https://api-bilhete-dot-api-samples-423102.uc.r.appspot.com
+
 const apiURL =
   "https://api-bilhete-dot-api-samples-423102.uc.r.appspot.com/api/bilhetes";
 
-export default async function findAll() {
+export async function findAll() {
   const requestInit = {
     method: "GET",
     headers: {

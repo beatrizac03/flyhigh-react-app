@@ -1,9 +1,6 @@
-import { useState } from "react";
-import findAll from "../api/api";
-import { useRef } from "react";
+import { useState, useEffect, useRef } from "react";
+import { findAll, save, deleteById } from "../api/api";
 import "./Bilhetes.css";
-import { useEffect } from "react";
-import save from "../api/api";
 
 export default function Bilhetes() {
   const [bilhetes, setBilhetes] = useState([]);
