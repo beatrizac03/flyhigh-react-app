@@ -1,12 +1,10 @@
 import "./styles.css";
-import Header from "./componentes/Header";
-import Bilhetes from "./componentes/Bilhetes";
+import AppRoutes from "./routes";
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Bilhetes />
+      <AppRoutes/>
     </div>
   );
 }
