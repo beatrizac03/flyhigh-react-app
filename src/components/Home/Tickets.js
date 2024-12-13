@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { findAll, save, deleteById } from "../api/api";
+import { findAll, save, deleteById } from "../../api/api";
 import "./Bilhetes.css";
 
 export default function Bilhetes() {
